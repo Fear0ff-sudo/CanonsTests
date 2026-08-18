@@ -1,0 +1,6 @@
+print("Downloading...")
+shell.run("wget", "https://raw.githubusercontent.com/Fear0ff-sudo/CanonsTests/refs/heads/master/assemble.lua", "assemble.lua")
+shell.run("wget", "https://raw.githubusercontent.com/Fear0ff-sudo/CanonsTests/refs/heads/master/left.lua", "left.lua")
+shell.run("wget", "https://raw.githubusercontent.com/Fear0ff-sudo/CanonsTests/refs/heads/master/right.lua", "right.lua")
+shell.run("wget", "https://raw.githubusercontent.com/Fear0ff-sudo/CanonsTests/refs/heads/master/fire.lua", "fire.lua")
+print("Installed !")
